@@ -1,0 +1,26 @@
+# Verify that faster indirect itineraries should NOT replace slower direct
+# itineraries.  Specifically, this particular query
+#     - has 9 direct itineraries + 2 indirect itineraries that
+#       are faster than any of the direct ones
+#     - but the user requests 3 itineraries
+#     - the result should be 3 *direct* itineraries
+
+
+# user commands:
+create user1 user1 100000
+login user1 user1
+search "Seattle WA" "Boston MA" 0 5 3
+quit
+*
+
+# expected user output:
+Created user user1
+Logged in as user1
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 722227 Day: 5 Carrier: B6 Number: 498 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 10 Price: 747
+Itinerary 1: 1 flight(s), 302 minutes
+ID: 722276 Day: 5 Carrier: B6 Number: 598 Origin: Seattle WA Dest: Boston MA Duration: 302 Capacity: 1 Price: 154
+Itinerary 2: 1 flight(s), 304 minutes
+ID: 721199 Day: 5 Carrier: B6 Number: 1698 Origin: Seattle WA Dest: Boston MA Duration: 304 Capacity: 12 Price: 129
+Goodbye
+*

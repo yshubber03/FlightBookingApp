@@ -1,0 +1,50 @@
+# user1 attempts to book a flight using search results from other terminal
+
+
+# Terminal 1's commands/inputs:
+create user1 user1 10000
+login user1 user1
+search "Seattle WA" "Boston MA" 1 1 1
+quit
+*
+
+# Scenario 1 of 2: Terminal 1 suceeds in user creation
+Created user user1
+Logged in as user1
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Goodbye
+|
+
+# Scenario 2 of 2: Terminal 1 fails to create user, as Terminal 2
+# has already done so
+Failed to create user
+Logged in as user1
+Itinerary 0: 1 flight(s), 297 minutes
+ID: 60454 Day: 1 Carrier: AS Number: 24 Origin: Seattle WA Dest: Boston MA Duration: 297 Capacity: 14 Price: 140
+Goodbye
+*
+
+##################### Concurrently executed commands: #####################
+
+# Terminal 2's commands/inputs:
+create user1 user1 10000
+login user1 user1
+book 0
+quit
+*
+
+# Scenario 1 of 2: Terminal 2 suceeds in user creation
+Failed to create user
+Logged in as user1
+No such itinerary 0
+Goodbye
+|
+
+# Scenario 2 of 2: Terminal 2 fails to create user (Terminal 1 has
+# already done it)
+Created user user1
+Logged in as user1
+No such itinerary 0
+Goodbye
+*

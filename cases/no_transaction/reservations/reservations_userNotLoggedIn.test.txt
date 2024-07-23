@@ -1,0 +1,18 @@
+# Verify that a user who isn't logged in cannot:
+#    - see their reservations
+#    - book a reservation
+#    - pay for a reservation
+
+# commands:
+reservations
+book 0
+pay 0
+quit
+*
+
+# expected printouts:
+Cannot view reservations, not logged in
+Cannot book reservations, not logged in
+Cannot pay, not logged in
+Goodbye
+*

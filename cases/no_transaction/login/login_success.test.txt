@@ -1,0 +1,9 @@
+create user1 user1 100
+login user1 user1
+quit
+*
+
+Created user user1
+Logged in as user1
+Goodbye
+*

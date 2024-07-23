@@ -1,0 +1,12 @@
+# Test logging in
+# Input
+create yasmineshubber baddie2003 200
+login yasmineshubber baddie2003
+quit
+*
+
+# Expected Output
+Created user yasmineshubber
+Logged in as yasmineshubber 
+Goodbye
+*

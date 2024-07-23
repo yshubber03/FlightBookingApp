@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="flightapp.FlightServiceTest" time="119.466" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="test.cases" value="cases/transaction/book"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/yasmineshubber/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar:/Users/yasmineshubber/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar:/Users/yasmineshubber/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar:/Users/yasmineshubber/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar:/Users/yasmineshubber/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar:/Users/yasmineshubber/Desktop/project344/target/test-classes:/Users/yasmineshubber/Desktop/project344/target/classes:/Users/yasmineshubber/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/yasmineshubber/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/yasmineshubber/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/9.2.1.jre11/mssql-jdbc-9.2.1.jre11.jar:/Users/yasmineshubber/.m2/repository/org/mybatis/mybatis/3.5.7/mybatis-3.5.7.jar:/Users/yasmineshubber/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/yasmineshubber/Desktop/project344/distributed.jar:/Users/yasmineshubber/.m2/repository/org/apache/maven/surefire/surefire-junit4/3.0.0-M5/surefire-junit4-3.0.0-M5.jar:/Users/yasmineshubber/.m2/repository/org/apache/maven/surefire/common-java5/3.0.0-M5/common-java5-3.0.0-M5.jar:/Users/yasmineshubber/.m2/repository/org/apache/maven/surefire/common-junit3/3.0.0-M5/common-junit3-3.0.0-M5.jar:/Users/yasmineshubber/.m2/repository/org/apache/maven/surefire/common-junit4/3.0.0-M5/common-junit4-3.0.0-M5.jar"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/yasmineshubber/Desktop/project344/target/surefire 2024-03-05T21-42-18_775-jvmRun1 surefire12062549950756425023tmp surefire_011811319997373615865tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/yasmineshubber/Desktop/project344/target/test-classes:/Users/yasmineshubber/Desktop/project344/target/classes:/Users/yasmineshubber/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/yasmineshubber/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/yasmineshubber/.m2/repository/com/microsoft/sqlserver/mssql-jdbc/9.2.1.jre11/mssql-jdbc-9.2.1.jre11.jar:/Users/yasmineshubber/.m2/repository/org/mybatis/mybatis/3.5.7/mybatis-3.5.7.jar:/Users/yasmineshubber/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/yasmineshubber/Desktop/project344/distributed.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/yasmineshubber"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/yasmineshubber/Desktop/project344"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.2"/>
+    <property name="user.name" value="yasmineshubber"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.6.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/yasmineshubber/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/4c/y869zrzn67z0q192vpp5s9y40000gn/T/"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="/Users/yasmineshubber/Desktop/project344"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/yasmineshubber/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runTest[0]" classname="flightapp.FlightServiceTest" time="17.077">
+    <system-out><![CDATA[Running test setup...
+... using dbconn.properties for test credentials
+... resetting database (ie, dropping all tables with suffix: yshubber)
+... running createTables.sql
+
+Starting tests
+Running test file: /Users/yasmineshubber/Desktop/project344/cases/transaction/book/book_withoutSearch.test.txt
+]]></system-out>
+    <system-err><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK__Users_ys__F3DBC573D7A705B1'. Cannot insert duplicate key in object 'dbo.Users_yshubber'. The duplicate key value is (user1).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1632)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:602)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:524)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7418)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3272)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:247)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:222)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:473)
+	at flightapp.Query.transaction_createCustomer(Query.java:217)
+	at flightapp.QueryAbstract.createCustomer(QueryAbstract.java:83)
+	at flightapp.FlightService.execute(FlightService.java:39)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:160)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot invoke a rollback operation when the AutoCommit mode is set to "true".
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:234)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.rollback(SQLServerConnection.java:3511)
+	at flightapp.Query.transaction_createCustomer(Query.java:227)
+	at flightapp.QueryAbstract.createCustomer(QueryAbstract.java:83)
+	at flightapp.FlightService.execute(FlightService.java:39)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:160)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></system-err>
+  </testcase>
+  <testcase name="runTest[1]" classname="flightapp.FlightServiceTest" time="33.342">
+    <system-out><![CDATA[Running test file: /Users/yasmineshubber/Desktop/project344/cases/transaction/book/book_2Users2Flights.test.txt
+]]></system-out>
+    <system-err><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Transaction (Process ID 52) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1632)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:602)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:524)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7418)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3272)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:247)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:222)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:473)
+	at flightapp.Query.transaction_book(Query.java:414)
+	at flightapp.QueryAbstract.book(QueryAbstract.java:158)
+	at flightapp.FlightService.execute(FlightService.java:67)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:160)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></system-err>
+  </testcase>
+  <testcase name="runTest[2]" classname="flightapp.FlightServiceTest" time="33.403">
+    <failure message="Failed: /Users/yasmineshubber/Desktop/project344/cases/transaction/book/book_2Users1FlightNoCapacity.test.txt. Actual outcome were: &#10;---Terminal 0 begin&#10;Created user user1&#10;Logged in as user1&#10;Itinerary 0: 1 flight(s), 0 minutes&#10;ID: 461846 Day: 6 Carrier: UA Number: 48 Origin: Kahului HI Dest: Los Angeles CA Duration: 0 Capacity: 19 Price: 132&#10;Itinerary 1: 1 flight(s), 273 minutes&#10;ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689&#10;Itinerary 2: 1 flight(s), 282 minutes&#10;ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645&#10;Itinerary 3: 1 flight(s), 287 minutes&#10;ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994&#10;Itinerary 4: 1 flight(s), 287 minutes&#10;ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375&#10;Itinerary 5: 1 flight(s), 294 minutes&#10;ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967&#10;Itinerary 6: 1 flight(s), 296 minutes&#10;ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857&#10;Booking failed&#10;Goodbye&#10;---Terminal 0 end&#10;---Terminal 1 begin&#10;Created user user2&#10;Logged in as user2&#10;Itinerary 0: 1 flight(s), 0 minutes&#10;ID: 461846 Day: 6 Carrier: UA Number: 48 Origin: Kahului HI Dest: Los Angeles CA Duration: 0 Capacity: 19 Price: 132&#10;Itinerary 1: 1 flight(s), 273 minutes&#10;ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689&#10;Itinerary 2: 1 flight(s), 282 minutes&#10;ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645&#10;Itinerary 3: 1 flight(s), 287 minutes&#10;ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994&#10;Itinerary 4: 1 flight(s), 287 minutes&#10;ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375&#10;Itinerary 5: 1 flight(s), 294 minutes&#10;ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967&#10;Itinerary 6: 1 flight(s), 296 minutes&#10;ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857&#10;Booked flight(s), reservation ID: 1&#10;Goodbye&#10;---Terminal 1 end&#10;&#10;&#10;Possible outcomes were: &#10;===== Outcome 0 =====&#10;---Terminal 0 begin&#10;Created user user1&#10;Logged in as user1&#10;Itinerary 0: 1 flight(s), 273 minutes&#10;ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689&#10;Itinerary 1: 1 flight(s), 282 minutes&#10;ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645&#10;Itinerary 2: 1 flight(s), 287 minutes&#10;ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994&#10;Itinerary 3: 1 flight(s), 287 minutes&#10;ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375&#10;Itinerary 4: 1 flight(s), 294 minutes&#10;ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967&#10;Itinerary 5: 1 flight(s), 296 minutes&#10;ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857&#10;Itinerary 6: 1 flight(s), 297 minutes&#10;ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209&#10;Booking failed&#10;Goodbye&#10;---Terminal 0 end&#10;---Terminal 1 begin&#10;Created user user2&#10;Logged in as user2&#10;Itinerary 0: 1 flight(s), 273 minutes&#10;ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689&#10;Itinerary 1: 1 flight(s), 282 minutes&#10;ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645&#10;Itinerary 2: 1 flight(s), 287 minutes&#10;ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994&#10;Itinerary 3: 1 flight(s), 287 minutes&#10;ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375&#10;Itinerary 4: 1 flight(s), 294 minutes&#10;ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967&#10;Itinerary 5: 1 flight(s), 296 minutes&#10;ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857&#10;Itinerary 6: 1 flight(s), 297 minutes&#10;ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209&#10;Booked flight(s), reservation ID: 1&#10;Goodbye&#10;---Terminal 1 end&#10;&#10;===== Outcome 1 =====&#10;---Terminal 0 begin&#10;Created user user1&#10;Logged in as user1&#10;Itinerary 0: 1 flight(s), 273 minutes&#10;ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689&#10;Itinerary 1: 1 flight(s), 282 minutes&#10;ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645&#10;Itinerary 2: 1 flight(s), 287 minutes&#10;ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994&#10;Itinerary 3: 1 flight(s), 287 minutes&#10;ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375&#10;Itinerary 4: 1 flight(s), 294 minutes&#10;ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967&#10;Itinerary 5: 1 flight(s), 296 minutes&#10;ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857&#10;Itinerary 6: 1 flight(s), 297 minutes&#10;ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209&#10;Booked flight(s), reservation ID: 1&#10;Goodbye&#10;---Terminal 0 end&#10;---Terminal 1 begin&#10;Created user user2&#10;Logged in as user2&#10;Itinerary 0: 1 flight(s), 273 minutes&#10;ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689&#10;Itinerary 1: 1 flight(s), 282 minutes&#10;ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645&#10;Itinerary 2: 1 flight(s), 287 minutes&#10;ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994&#10;Itinerary 3: 1 flight(s), 287 minutes&#10;ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375&#10;Itinerary 4: 1 flight(s), 294 minutes&#10;ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967&#10;Itinerary 5: 1 flight(s), 296 minutes&#10;ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857&#10;Itinerary 6: 1 flight(s), 297 minutes&#10;ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209&#10;Booking failed&#10;Goodbye&#10;---Terminal 1 end&#10;&#10;&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+Failed: /Users/yasmineshubber/Desktop/project344/cases/transaction/book/book_2Users1FlightNoCapacity.test.txt. Actual outcome were: 
+---Terminal 0 begin
+Created user user1
+Logged in as user1
+Itinerary 0: 1 flight(s), 0 minutes
+ID: 461846 Day: 6 Carrier: UA Number: 48 Origin: Kahului HI Dest: Los Angeles CA Duration: 0 Capacity: 19 Price: 132
+Itinerary 1: 1 flight(s), 273 minutes
+ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689
+Itinerary 2: 1 flight(s), 282 minutes
+ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645
+Itinerary 3: 1 flight(s), 287 minutes
+ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994
+Itinerary 4: 1 flight(s), 287 minutes
+ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375
+Itinerary 5: 1 flight(s), 294 minutes
+ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967
+Itinerary 6: 1 flight(s), 296 minutes
+ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857
+Booking failed
+Goodbye
+---Terminal 0 end
+---Terminal 1 begin
+Created user user2
+Logged in as user2
+Itinerary 0: 1 flight(s), 0 minutes
+ID: 461846 Day: 6 Carrier: UA Number: 48 Origin: Kahului HI Dest: Los Angeles CA Duration: 0 Capacity: 19 Price: 132
+Itinerary 1: 1 flight(s), 273 minutes
+ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689
+Itinerary 2: 1 flight(s), 282 minutes
+ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645
+Itinerary 3: 1 flight(s), 287 minutes
+ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994
+Itinerary 4: 1 flight(s), 287 minutes
+ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375
+Itinerary 5: 1 flight(s), 294 minutes
+ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967
+Itinerary 6: 1 flight(s), 296 minutes
+ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857
+Booked flight(s), reservation ID: 1
+Goodbye
+---Terminal 1 end
+
+
+Possible outcomes were: 
+===== Outcome 0 =====
+---Terminal 0 begin
+Created user user1
+Logged in as user1
+Itinerary 0: 1 flight(s), 273 minutes
+ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689
+Itinerary 1: 1 flight(s), 282 minutes
+ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645
+Itinerary 2: 1 flight(s), 287 minutes
+ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994
+Itinerary 3: 1 flight(s), 287 minutes
+ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375
+Itinerary 4: 1 flight(s), 294 minutes
+ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967
+Itinerary 5: 1 flight(s), 296 minutes
+ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857
+Itinerary 6: 1 flight(s), 297 minutes
+ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209
+Booking failed
+Goodbye
+---Terminal 0 end
+---Terminal 1 begin
+Created user user2
+Logged in as user2
+Itinerary 0: 1 flight(s), 273 minutes
+ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689
+Itinerary 1: 1 flight(s), 282 minutes
+ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645
+Itinerary 2: 1 flight(s), 287 minutes
+ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994
+Itinerary 3: 1 flight(s), 287 minutes
+ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375
+Itinerary 4: 1 flight(s), 294 minutes
+ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967
+Itinerary 5: 1 flight(s), 296 minutes
+ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857
+Itinerary 6: 1 flight(s), 297 minutes
+ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209
+Booked flight(s), reservation ID: 1
+Goodbye
+---Terminal 1 end
+
+===== Outcome 1 =====
+---Terminal 0 begin
+Created user user1
+Logged in as user1
+Itinerary 0: 1 flight(s), 273 minutes
+ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689
+Itinerary 1: 1 flight(s), 282 minutes
+ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645
+Itinerary 2: 1 flight(s), 287 minutes
+ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994
+Itinerary 3: 1 flight(s), 287 minutes
+ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375
+Itinerary 4: 1 flight(s), 294 minutes
+ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967
+Itinerary 5: 1 flight(s), 296 minutes
+ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857
+Itinerary 6: 1 flight(s), 297 minutes
+ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209
+Booked flight(s), reservation ID: 1
+Goodbye
+---Terminal 0 end
+---Terminal 1 begin
+Created user user2
+Logged in as user2
+Itinerary 0: 1 flight(s), 273 minutes
+ID: 131239 Day: 6 Carrier: DL Number: 292 Origin: Kahului HI Dest: Los Angeles CA Duration: 273 Capacity: 14 Price: 689
+Itinerary 1: 1 flight(s), 282 minutes
+ID: 887205 Day: 6 Carrier: HA Number: 56 Origin: Kahului HI Dest: Los Angeles CA Duration: 282 Capacity: 0 Price: 645
+Itinerary 2: 1 flight(s), 287 minutes
+ID: 636257 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 17 Price: 994
+Itinerary 3: 1 flight(s), 287 minutes
+ID: 1016624 Day: 6 Carrier: UA Number: 1281 Origin: Kahului HI Dest: Los Angeles CA Duration: 287 Capacity: 11 Price: 375
+Itinerary 4: 1 flight(s), 294 minutes
+ID: 761713 Day: 6 Carrier: DL Number: 2116 Origin: Kahului HI Dest: Los Angeles CA Duration: 294 Capacity: 13 Price: 967
+Itinerary 5: 1 flight(s), 296 minutes
+ID: 3087 Day: 6 Carrier: AA Number: 254 Origin: Kahului HI Dest: Los Angeles CA Duration: 296 Capacity: 1 Price: 857
+Itinerary 6: 1 flight(s), 297 minutes
+ID: 285 Day: 6 Carrier: AA Number: 14 Origin: Kahului HI Dest: Los Angeles CA Duration: 297 Capacity: 10 Price: 209
+Booking failed
+Goodbye
+---Terminal 1 end
+
+
+
+	at flightapp.FlightServiceTest.runTest(FlightServiceTest.java:514)
+]]></failure>
+    <system-out><![CDATA[Running test file: /Users/yasmineshubber/Desktop/project344/cases/transaction/book/book_2Users1FlightNoCapacity.test.txt
+]]></system-out>
+    <system-err><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK__Reservat__C2B7EDE8C7309CB1'. Cannot insert duplicate key in object 'dbo.Reservations_yshubber'. The duplicate key value is (1).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1632)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:602)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:524)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7418)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3272)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:247)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:222)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:473)
+	at flightapp.Query.transaction_book(Query.java:414)
+	at flightapp.QueryAbstract.book(QueryAbstract.java:158)
+	at flightapp.FlightService.execute(FlightService.java:67)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:160)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></system-err>
+  </testcase>
+  <testcase name="runTest[3]" classname="flightapp.FlightServiceTest" time="34.26">
+    <system-out><![CDATA[Running test file: /Users/yasmineshubber/Desktop/project344/cases/transaction/book/book_1User1FlightTwice.test.txt
+]]></system-out>
+    <system-err><![CDATA[com.microsoft.sqlserver.jdbc.SQLServerException: Violation of PRIMARY KEY constraint 'PK__Users_ys__F3DBC573D7A705B1'. Cannot insert duplicate key in object 'dbo.Users_yshubber'. The duplicate key value is (user1).
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1632)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:602)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:524)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7418)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3272)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:247)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:222)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:473)
+	at flightapp.Query.transaction_createCustomer(Query.java:217)
+	at flightapp.QueryAbstract.createCustomer(QueryAbstract.java:83)
+	at flightapp.FlightService.execute(FlightService.java:39)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:160)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+com.microsoft.sqlserver.jdbc.SQLServerException: Cannot invoke a rollback operation when the AutoCommit mode is set to "true".
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:234)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.rollback(SQLServerConnection.java:3511)
+	at flightapp.Query.transaction_createCustomer(Query.java:227)
+	at flightapp.QueryAbstract.createCustomer(QueryAbstract.java:83)
+	at flightapp.FlightService.execute(FlightService.java:39)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:160)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+com.microsoft.sqlserver.jdbc.SQLServerException: Transaction (Process ID 52) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:262)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1632)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:602)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:524)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7418)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:3272)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:247)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:222)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:473)
+	at flightapp.Query.transaction_book(Query.java:414)
+	at flightapp.QueryAbstract.book(QueryAbstract.java:158)
+	at flightapp.FlightService.execute(FlightService.java:67)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:160)
+	at flightapp.FlightServiceTest$Session.call(FlightServiceTest.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></system-err>
+  </testcase>
+</testsuite>

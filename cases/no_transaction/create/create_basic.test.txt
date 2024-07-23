@@ -1,0 +1,11 @@
+# Verify we can create a single user
+
+# commands to execute:
+create user1 user1 100
+quit
+*
+
+# expected output from those commands:
+Created user user1
+Goodbye
+*

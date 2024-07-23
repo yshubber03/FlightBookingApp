@@ -1,0 +1,12 @@
+# what happens if user enters negative number 
+# Input
+
+# Terminal 1's commands:
+create yazmataz abunutella -200
+quit
+*
+
+# Output for Terminal 1
+Failed to create user
+Goodbye
+*

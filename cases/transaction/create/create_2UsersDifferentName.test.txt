@@ -1,0 +1,25 @@
+# Tests 2 terminals trying to create an account with DIFFERENT usernames
+# Both should succeed
+
+
+# Terminal 1's commands:
+create user1 pwd1 100
+quit
+*
+
+# Output for Terminal 1
+Created user user1
+Goodbye
+*
+
+##################### Concurrently executed commands: #####################
+
+# Terminal 2's commands:
+create user2 pwd2 100
+quit
+*
+
+# Output for Terminal 2
+Created user user2
+Goodbye
+*

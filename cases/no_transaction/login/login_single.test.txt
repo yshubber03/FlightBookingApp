@@ -1,0 +1,13 @@
+# this is a comment
+
+# commands to execute:
+create user1 user1 10
+login user1 user1
+quit
+*  # a single * at the beginning of a line separates commands and expected results
+
+# expected output:
+Created user user1
+Logged in as user1
+Goodbye
+*

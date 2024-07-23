@@ -1,0 +1,17 @@
+# Verify the user
+
+# commands for lilyazzy to execute:
+create lilyazzy baddie 100000
+login lilyazzy baddie
+search "Seattle WA" "Seattle WA" 1 1 1
+reservations  
+quit
+*
+
+# expected output from lilyazzy's commands:
+Created user lilyazzy
+Logged in as lilyazzy
+No flights matched your selection
+No reservations found
+Goodbye
+*
